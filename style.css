@@ -1,0 +1,247 @@
+@import url(./header.css);
+@import url(./content.css);
+@import url(./footer.css);
+*{
+    font-size: 18px;
+    box-sizing: border-box;
+    margin: 0;
+}
+/*320px — 480px: Mobile devices*/
+.container{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 100vw;
+    grid-template-rows: 120px 2100px 480px;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: 0;
+    grid-template-areas: 
+    "hd"
+    "main"
+    "ft";
+}
+.top-icon i{
+    padding: 5px;
+    padding-right: 10px;
+    margin: 5px;
+    color: rgba(231, 137, 50, 0.952);
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+    justify-items: left;
+    align-content: space-between;
+    padding: 20px;
+    padding-left: 30px;
+    margin: 5px;
+    background-color: rgb(82, 83, 80);
+    color: white;
+}
+.contact h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto' ,sans-serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    word-spacing: 10px;
+    margin-bottom: 15px;
+}
+.contact p{
+    text-transform: capitalize;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.contact p:last-of-type{
+    text-transform: uppercase;
+}
+#tel-pre, #eemail{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.contact i{
+    padding-right: 10px;
+    color: rgb(196, 131, 10);
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/*481px — 768px: iPads, Tablets*/
+@media  screen and (min-width: 481px) {
+    .container{
+        grid-template-rows: 120px 2310px 170px;
+    }
+    .nav-top img{
+        margin-left: 30%;
+    }
+}
+/*769px — 1024px: Small screens, laptops*/
+@media  screen and (min-width: 769px) {
+    .container{
+        grid-template-rows: 120px 2310px 170px;
+    }
+    .navbar{
+        width: 100vw;
+        position: fixed;
+    }
+    .nav-top i{
+        display: none;
+    }
+    .nav-list{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;    
+    }
+    .nav-list li{
+        padding: 5px;
+       font-size: 14px;
+        margin: 15px;
+        float: left;  
+    }
+    .nav-list li a:hover{
+        color: rgb(238, 119, 76);
+    }
+    .mmain-top{
+        height: 400px;
+        margin: 0;
+        background-image: url("./img/car-cover.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+        z-index: -1;
+    }
+    .linear{
+        display: block;
+    }
+    .mmain-top h1{
+        font-size: 2em;
+        color: aliceblue;
+
+    }
+    .mmain-top h2{
+        font-size: 1.2em;
+        color: antiquewhite;
+    }
+    .mmain-top button{
+        width: 20vw;
+        cursor: pointer;
+    }
+    .big-icons{
+        grid-template-columns: repeat(4,25%);
+        grid-template-rows: 100%;
+        height: 250px;
+    }
+    .cards-box{
+        grid-template-columns: repeat(3,33%);
+        grid-template-rows: 100%;
+        height: 300px;
+    }
+    .about-us{
+        height: 600px;
+        background-color: #e4e1e1;
+        margin-right: 0;
+    }
+    .top-ab{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+    .about-us p{
+        color: black;
+        padding: 10px;
+        line-height: 50px;
+        font-size: 1.5em;
+    }
+    .logsign{
+        padding: 25px;
+        flex-direction: row;
+    }
+    .logsign p{
+        padding-top: 28px;
+    }
+    .logsign button{
+        width: 20vh;
+        margin: 20px;
+    }
+    .contact{
+        padding-left: 50px;
+        line-height: 60px;
+        padding-bottom: 60px;
+    }
+    .contact h1{
+        font-size: 1.5em;
+    }
+    .contact p{
+        font-size: 1.1em;
+        letter-spacing: 2px;
+    }
+    .buttom-dv{
+        z-index: 4;
+    }
+    #tel-pre, #eemail{
+        height: 18px;
+    }
+    .contact i{
+        margin-top: 20px;
+    }
+    .refer-link ul{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     justify-items: center;
+     padding-left: 18%;
+     padding-top: 10px;
+    }   
+}
+/*1025px — 1200px: Desktops, large screens*/
+@media only screen and (min-width: 1025px){
+    .container{
+        grid-template-rows: 120px 2200px 170px;
+    }
+    .nav-list li a{
+        font-size: 1.5em;
+    }
+    .refer-link ul{
+        padding-left: 20%;
+    } 
+}
+@media only screen and (min-width: 1200px){
+    .container{
+        grid-template-rows: 165px 2480px 170px;
+    }
+    .about-us{
+        width: 100vw;
+    }
+    .about-us p{
+        font-size: 28px;
+    }
+    .mmain-top button{
+        font-size: 1.2em;
+        width: 10%;
+    }
+    .reserve .circle, .click .circle{
+        align-self: center;
+    }
+    .pref-col{
+        font-size: 1.2em;
+        letter-spacing: 2px;
+    }
+    .cards-box h1{
+        font-size: 1.4em;
+    }
+    .cards-box p{
+        font-size: 1.1em;
+    }
+}
