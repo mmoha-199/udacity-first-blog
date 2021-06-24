@@ -1,0 +1,287 @@
+.content{
+    grid-area: main;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: 1;
+}
+.mmain-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    position: relative;   
+}
+.linear{
+    display: none;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.377);
+    z-index: -1;
+    align-self: center;
+    border: 1px solid rgba(0, 0, 0, 0.068);
+}
+.mmain-top h1{
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: 'new', sans-serif;
+    margin-bottom: 10px;
+    color: black;
+    
+}
+.mmain-top h2{
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 300;
+    font-family: 'new', sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    line-height: 25px;
+    color:black;
+}
+.mmain-top button{
+    width: 40vw;
+    height: 40px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    outline: none;
+    align-self: center;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow:   0px 5px 10px 0px rgba(0,0,0,0.2);
+    transition: color 0.2s;
+    transition: box-shadow 0.2s;
+}
+.mmain-top button a{
+    cursor: pointer;
+}
+.mmain-top button:hover{
+    box-shadow:   0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: rgba(231, 137, 50, 0.952);
+}
+.big-icons{
+    display: grid;
+    width: 100vw;
+    height: 418px;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    "clk"
+    "resv"
+    "sign"
+    "delv";
+}
+.click, .reserve, .sign, .deliver, #clik, #resv, #docs, #delv,.circle{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.circle{
+    width: 105px;
+    height: 105px;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border: 3px solid rgba(231, 137, 50, 0.952);
+    border-radius: 50%;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.068);;
+    transition: color 0.2s;
+    transition: background-color 0.2s;
+    transition: box-shadow 0.2s;
+}
+.circle:hover{
+    background-color: rgba(177, 174, 174, 0.678);
+    color: rgba(231, 137, 50, 0.952);
+    border: 3px solid rgba(233, 122, 19, 0.952);
+    border-radius: 50%;
+}
+.big-icons i{
+    font-size: 45px;
+    text-align: center;
+    transition: font-size 0.1s;
+    cursor: pointer;
+}
+.big-icons i:hover{
+    font-size: 50px;
+}
+.big-icons h2{
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.pref-col{
+    color: rgb(255, 124, 1); 
+}
+.cards-box{
+    display: grid;
+    width: 100vw;
+    height: 640px;
+    justify-content: center;
+    justify-items: center;
+    grid-template-rows: 33.33%;
+    grid-template-columns: 100vw;
+    grid-template-areas: 
+    "used-v"
+    "used-c"
+    "find";
+}
+.bbackgg{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(209, 209, 209);
+    image-resolution: rgb(65, 60, 60);
+    width: 96%;
+    margin-bottom: 10px;
+    outline: none;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.bbackgg h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bbackgg p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.more-info{
+    height: auto; 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;   
+}
+.more-info a{
+    width: 35%;
+    height: 35px;
+    padding: 5px;
+    padding-top: 9px;
+    margin: 10px;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(255, 145, 0);
+    border-radius: 5px;
+    outline: none;
+    box-shadow: white;
+}
+.more-info a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: gray;
+}
+.used-c{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(./img/car2.jpg);
+}
+.used-v{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(./img/car1.jpg);
+}
+.find{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(./img/googlemap.png5.png);
+}
+.about-us{
+    background-color: rgb(138, 133, 133);
+    width: 98vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+.top-ab{
+    padding: 20px;
+    margin-bottom: 30px;  
+}
+.top-ab h1{
+    font-size: 24px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: rgb(197, 99, 6);
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+}
+.butt-ab p{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logsign{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(141, 135, 135);
+    color: white;
+}
+.logsign a{
+    text-decoration: none;
+    color: inherit;
+}
+.log-in, .sign-up{
+    padding: 10px;
+}
+.logsign p{
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.logsign button{
+    width: 75%;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(231, 125, 26);
+    border-radius: 5px;
+    outline: none;
+    transition: color 0.2s;
+    transition: box-shadow 0.2s;
+    transition: background-color 0.2s;
+}
+.logsign button:hover{
+    color: white;
+    background-color: rgba(164, 196, 75, 0.418);
+    box-shadow: 0.5px 0.5px  rgb(177, 176, 176);
+}
