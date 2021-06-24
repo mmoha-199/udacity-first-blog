@@ -1,6 +1,6 @@
-@import url(./header.css);
-@import url(./content.css);
-@import url(./footer.css);
+@import url(./css/header.css);
+@import url(./css/content.css);
+@import url(./css/footer.css);
 *{
     font-size: 18px;
     box-sizing: border-box;
