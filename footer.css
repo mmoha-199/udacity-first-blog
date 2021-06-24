@@ -1,0 +1,79 @@
+.buttom-dv{
+    grid-area: ft;
+    align-self: end;
+    bottom: 0;
+}
+.buttom-dv{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+.buttom-dv a{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+.buttom-dv a:hover{
+    color: rgb(255, 145, 0);
+}
+.refer-link{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+}
+.refer-link ul{
+    list-style: none;
+    width: 50%;
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.med-link{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+.med-link i{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.med-link i:hover{
+    background-color: white;
+}
+.fa-facebook:hover{
+    color: rgb(63, 63, 190);
+}
+.fa-instagram:hover{ 
+    color: #bc1888;   
+}
+.fa-twitter:hover{
+    color: rgb(104, 104, 230);
+}
+.fa-youtube:hover{
+    color: rgb(223, 18, 46);
+}
+.fa-google-plus-g:hover{
+    color: rgb(190, 72, 63);
+}
+.fa-snapchat-ghost:hover{
+    color: rgb(190, 188, 63);
+}
+.rights{
+    text-align: center;
+}
+.rights p{
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.rights p::first-letter, .rights p a{
+    text-transform: capitalize;
+}
