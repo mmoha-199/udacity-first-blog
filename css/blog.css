@@ -141,9 +141,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: left;
+    width: 98%;
     line-height: 10px;
     background-color: #a39f9f;
-    padding-left: 20px;
+    
     padding-bottom: 10px;
 }
 .contact h1, .contact p{
