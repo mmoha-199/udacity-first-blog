@@ -233,6 +233,9 @@
     justify-items: center;
     padding: 0px;
 }
+.capt-box:last-of-type{
+    margin-bottom: 20px;
+}
 .capt-box{
     display: block;
     width: 90vw;
@@ -243,7 +246,9 @@
     position: relative;
 }
 .anime{
-    width: 100vw;
+    width: 80vw;
+    align-self: center;
+    padding: 5px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.075) ;
 }
 .capt-box figcaption{
