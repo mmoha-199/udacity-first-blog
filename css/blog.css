@@ -237,16 +237,24 @@ body{
     .nav-list a{
         padding-left: 60px;
     }
+    .refer-link{
+        flex-direction: row;
+        justify-content: left;
+        padding: 0;
+    }
     .refer-link ul{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-self: flex-start;
         justify-content: center;
         justify-items: center;
-        padding-left: 18%;
-        padding-top: 10px;
+        padding: 0;
+        margin: 0;
+
+        
     }  
     .refer-link ul li{
-        padding: 10px;
+        align-self: center;
     }
 }
 @media screen and (min-width: 1024px) {
