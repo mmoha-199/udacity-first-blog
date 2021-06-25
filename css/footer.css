@@ -20,6 +20,7 @@
     text-decoration: none;
     cursor: pointer;
     color: inherit;
+    transition: color 0.2s;
 }
 .buttom-dv a:hover{
     color: rgb(255, 145, 0);
