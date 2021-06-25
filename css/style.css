@@ -33,6 +33,7 @@ body{
     color: rgba(231, 137, 50, 0.952);
 }
 .contact{
+    grid-area: cont7;
     display: flex;
     flex-direction: column;
     text-align: left;

@@ -3,11 +3,22 @@
     display: grid;
     justify-content: center;
     justify-items: center;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto ;
+    grid-template-areas: 
+    "cont1"
+    "cont2"
+    "cont3"
+    "cont4"
+    "cont5"
+    "cont6"
+    "cont7";
     margin: 0px;
     padding: 0px;
     z-index: 1;
 }
 .mmain-top{
+    grid-area: cont1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,6 +82,7 @@
     color: rgba(231, 137, 50, 0.952);
 }
 .big-icons{
+    grid-area: cont2;
     display: grid;
     width: 100vw;
     height: 418px;
@@ -130,6 +142,7 @@
     color: rgb(255, 124, 1); 
 }
 .cards-box{
+    grid-area: cont3;
     display: grid;
     width: 100vw;
     height: 640px;
@@ -212,6 +225,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url(../img/googlemap.png5.png);
 }
 .serv-galry{
+    grid-area: cont4;
     display: flex;
     width: 100vw;
     flex-direction: column;
@@ -243,6 +257,7 @@
    width: 90%;
 }
 .about-us{
+    grid-area: cont5;
     background-color: rgb(177, 172, 163);
     width: 98vw;
     height: auto;
@@ -277,6 +292,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .logsign{
+    grid-area: cont6;
     display: flex;
     flex-direction: column;
     text-align: center;
