@@ -220,7 +220,14 @@
 }
 .buttom-dv a{
     text-decoration: none;
+    padding-bottom: 10px;
     cursor: pointer;
+}
+.buttom-dv a:first-of-type:hover{
+    color: rgba(190, 65, 65, 0.849);
+}
+.buttom-dv a:last-of-type:hover{
+    color: rgba(75, 72, 218, 0.699);
 }
 @media screen and (min-width: 768px) {
     .tabl-b{
