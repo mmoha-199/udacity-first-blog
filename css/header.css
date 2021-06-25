@@ -6,7 +6,6 @@
     display: flex;
     flex-direction: column;
     background-color: #3b3333;
-    color: white;
     margin-bottom: 20px;
 }
 .nav-top{
@@ -15,7 +14,6 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    color: white;  
 }
 .fa-bars{
     display: block;
@@ -36,20 +34,25 @@
     margin: 0px;
     justify-content: flex-start;
     text-transform: uppercase;
-    font-size: 14px;
     font-family: 'Roboto', sans-serif;
     margin-left: 20px;   
 }
-.nav-list a {
-    font-size: 1em;
+.nav-list{
+    width: 100%;
+    color: aliceblue;
+}
+.nav-list li a {
+    font-size: 1.1em;
+    width: 100%;
     text-decoration: none;
     font-family: inherit;
     text-transform: inherit;
     justify-content: inherit;
-    font-size: inherit;
-    color: inherit;
-    padding: 5px;
+    line-height: 30px;
 }
-.nav-list a:hover{
+.nav-list li:hover{
+    background-color: aliceblue;
+    width: 100%;
     cursor: pointer;
+    color: #3b3333;
 }
