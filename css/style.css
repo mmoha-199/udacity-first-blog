@@ -113,14 +113,11 @@ body{
     }
     .nav-list li{
         padding: 0px 10px 0px 10px;
-        margin: 0px 10px 0px 10px;
-
-        
+        margin: 0px 10px 0px 10px;    
     }
     .nav-list a{
         width: 10%;
     }
-
     .mmain-top{
         height: 400px;
         margin-top: 40px;
@@ -227,6 +224,9 @@ body{
         width: 20vh;
         margin: 20px;
     }
+    .contact{
+        padding-bottom: 10px;
+    }
     .contact h1{
         font-size: 1.5em;
     }
@@ -234,28 +234,20 @@ body{
         font-size: 1.1em;
         letter-spacing: 2px;
     }
-    .contact i{
-        padding: ;
-    }
     .refer-link{
         flex-direction: row;
         justify-content: space-between;
     }
-
     #tel-pre, #eemail{
         height: 18px;
     }
     .refer-link ul{
         padding-left: 20px;
         padding-right: 60px;
-    
     }   
 }
 /*1025px — 1200px: Desktops, large screens*/
 @media only screen and (min-width: 1025px){
-    .container{
-        grid-template-rows: 120px 2200px 170px;
-    }
     .nav-list li a{
         font-size: 1.5em;
     }
@@ -264,15 +256,10 @@ body{
     } 
     .capt-box:last-of-type{
         display: flex;
-        padding-bottom: 30px;
-        
+        padding-bottom: 30px;   
     }
-
 }
 @media only screen and (min-width: 1200px){
-    .container{
-        grid-template-rows: 165px 2480px 170px;
-    }
     .about-us{
         width: 100vw;
     }
