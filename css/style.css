@@ -73,13 +73,11 @@ body{
     height: 30px;
     padding: 5px;
     margin-top: 5px;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 .contact i{
     color: rgb(196, 131, 10);
     width: 5%;
-
 }
 .fas fa-phone-alt, .fas fa-envelope{
     padding-bottom: 40px;
@@ -104,8 +102,7 @@ body{
     }
     .nav-top img{
         margin-left: 10vw;
-        padding-top: 10px;
-        
+        padding-top: 10px;   
     }
     .nav-list{
         flex-direction: row;
@@ -134,7 +131,6 @@ body{
     .mmain-top h1{
         font-size: 2em;
         color: aliceblue;
-
     }
     .mmain-top h2{
         font-size: 1.2em;
@@ -162,7 +158,6 @@ body{
         padding: 0px;
         margin: 0px;
         background-color: rgb(247, 247, 236);
-        
         margin-bottom: 10px;
     }
     .capt-box:last-of-type{
