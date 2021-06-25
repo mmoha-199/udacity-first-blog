@@ -115,6 +115,10 @@
     margin: 3px;
     outline: none;
 }
+.with-gog:hover, .with-fc:hover {
+    font-size: 1.05em;
+    cursor: pointer;
+}
 .with-gog i{
     color: brown;
 }
