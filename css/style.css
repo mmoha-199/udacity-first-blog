@@ -2,17 +2,22 @@
 @import url("./content.css");
 @import url("./footer.css");
 
-*{
+body{
     font-size: 18px;
     box-sizing: border-box;
     margin: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 /*320px — 480px: Mobile devices*/
 .container{
     display: grid;
     width: 100vw;
     grid-template-columns: 100vw;
-    grid-template-rows: 120px 3500px 480px;
+    grid-template-rows: 120px 3440px 480px;
     margin-left: 0;
     margin-right: 0;
     z-index: 0;
