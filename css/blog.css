@@ -31,7 +31,7 @@ body{
     grid-area: main;
     margin-left: 0;
     margin-right: 0;
-    margin-top: 10px;
+    margin-top: 40px;
     z-index: 1;
 }
 .sharing-s{
@@ -81,6 +81,7 @@ body{
     justify-content: inherit;
     color: inherit;
     padding: 15px;
+    line-height: 30px;
 }
 .nav-list a:hover{
     cursor: pointer;
@@ -141,6 +142,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: left;
+    padding-left: 20px;
     width: 98%;
     line-height: 10px;
     background-color: #a39f9f;
