@@ -96,10 +96,19 @@ body{
         padding-top: 10px;
         
     }
+    .nav-list{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .nav-list li{
+        padding: 0px 10px 0px 10px;
+        margin: 0px 10px 0px 10px;
+        width: fit-content;
+    }
 
     .mmain-top{
         height: 400px;
-        margin: 0;
+        margin-top: 40px;
         background-image: url("../img/car-cover.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -133,6 +142,7 @@ body{
         grid-template-rows: 100%;
         height: 300px;
     }
+    .ser
     .about-us{
         height: 600px;
         background-color: #e4e1e1;
