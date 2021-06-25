@@ -98,15 +98,18 @@ body{
 }
 .avatar{
     display: block;
-    margin-left: 0%;
+    margin: 0%;
+    padding: 0px;
     align-self: center;
     margin: 0%;
+    height: 250px;
+    width: 210px;
+    margin-bottom: 10px;
     border: 1px solid rgba(8, 8, 8, 0.096);
     box-shadow: 0px 8px 16px 0px rgba(139, 141, 140, 0.39);
 }
 .avatar img{
-    height: 250px;
-    width: 210px;
+    width: 100%;
 }
 .card h1{
     font-size: 24px;
@@ -260,7 +263,7 @@ body{
     }
     .refer-link{
         flex-direction: row;
-        justify-content: left;
+        justify-content: space-between;
         padding: 0;
     }
     .refer-link ul{
@@ -269,8 +272,8 @@ body{
         align-self: flex-start;
         justify-content: center;
         justify-items: center;
-        padding: 0;
-        margin: 0;
+        padding-left: 20px;
+        padding-right: 60px;
 
         
     }  
@@ -281,7 +284,7 @@ body{
 @media screen and (min-width: 1024px){
     .tabl-b{
         width: 35vw;
-    }
+    } 
 }
 @media screen and (min-width: 1200px){
     .tabl-b{
