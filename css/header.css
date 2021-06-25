@@ -40,9 +40,11 @@
 .nav-list{
     width: 100%;
     color: aliceblue;
+    background-color: #3b3333;
 }
 .nav-list li a {
     font-size: 1.1em;
+    color: inherit;
     width: 100%;
     text-decoration: none;
     font-family: inherit;
