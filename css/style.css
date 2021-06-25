@@ -94,8 +94,8 @@
         width: 100vw;
         position: fixed;
     }
-    .nav-top i{
-        display: none;
+    .nav-top img{
+        margin-top: 10%;
     }
     .nav-list{
         flex-direction: row;
@@ -117,7 +117,7 @@
     .mmain-top{
         height: 400px;
         margin: 0;
-        background-image: url("./img/car-cover.jpg");
+        background-image: url("../img/car-cover.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
