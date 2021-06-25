@@ -142,7 +142,40 @@ body{
         grid-template-rows: 100%;
         height: 300px;
     }
-    .ser
+    .serv-galry{
+        grid-area: cont4;
+        display: flex;
+        width: 100vw;
+        flex-direction: row;
+        justify-content: left;
+        justify-items: left;
+        padding: 0px;
+    }
+    .capt-box:last-of-type{
+        margin-bottom: 0%;
+    }
+    .capt-box{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    .anime{
+        display: none;
+    }
+    .capt-box figcaption{
+        position: absolute;
+    }
+    .capt-box h2{
+        font-size: 1.1em;
+        text-align: center;
+        padding: 0px;
+        font-family: 'Roboto',sans-serif;
+        letter-spacing: 2px; 
+    }
+    .capt-box img{
+       height: 200px;
+       width: 90%;
+    }
     .about-us{
         height: 600px;
         background-color: #e4e1e1;
