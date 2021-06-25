@@ -95,7 +95,9 @@
         position: fixed;
     }
     .nav-top img{
-        margin-top: 10%;
+        margin-left: 10vw;
+        padding-top: 10px;
+        display: block;
     }
     .nav-list{
         flex-direction: row;
@@ -230,7 +232,7 @@
     }
     .mmain-top button{
         font-size: 1.2em;
-        width: 10%;
+        width: 20vw;
     }
     .reserve .circle, .click .circle{
         align-self: center;
