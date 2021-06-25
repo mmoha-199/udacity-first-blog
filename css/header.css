@@ -46,15 +46,14 @@
     font-size: 1.1em;
     color: inherit;
     width: 100%;
+    padding: 5px;
     text-decoration: none;
     font-family: inherit;
     text-transform: inherit;
     justify-content: inherit;
     line-height: 30px;
+    transition: color 0.2s;
 }
-.nav-list li:hover{
-    background-color: aliceblue;
-    width: 100%;
-    cursor: pointer;
-    color: #3b3333;
+.nav-list li a:hover{
+    color: rgb(255, 123, 0);
 }

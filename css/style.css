@@ -59,6 +59,8 @@ body{
     font-family: 'Do Hyeon', sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
+    padding: 5px;
+    margin: 0px;
 }
 .contact p:last-of-type{
     text-transform: uppercase;
@@ -66,13 +68,22 @@ body{
 #tel-pre, #eemail{
     display: flex;
     flex-direction: row;
+    justify-content: left;
+    justify-items: left;
+    height: 30px;
     padding: 5px;
     margin-top: 5px;
     text-decoration: none;
+    
 }
 .contact i{
-    padding-right: 10px;
     color: rgb(196, 131, 10);
+    width: 5%;
+
+}
+.fas fa-phone-alt, .fas fa-envelope{
+    padding-bottom: 40px;
+    margin: 20px;
 }
 .contact a{
     text-decoration: none;
@@ -103,7 +114,11 @@ body{
     .nav-list li{
         padding: 0px 10px 0px 10px;
         margin: 0px 10px 0px 10px;
-        width: fit-content;
+
+        
+    }
+    .nav-list a{
+        width: 10%;
     }
 
     .mmain-top{
@@ -147,9 +162,11 @@ body{
         display: flex;
         width: 100vw;
         flex-direction: row;
-        justify-content: left;
-        justify-items: left;
         padding: 0px;
+        margin: 0px;
+        background-color: rgb(247, 247, 236);
+        
+        margin-bottom: 10px;
     }
     .capt-box:last-of-type{
         margin-bottom: 0%;
@@ -157,29 +174,37 @@ body{
     .capt-box{
         display: flex;
         flex-direction: column;
-        width: 90vw;
+        width: 33%;
+        padding: 0px;
+        margin: 0px;
+        padding-bottom: 30px;
+        border: 1px solid rgba(0, 0, 0, 0.082);
     }
     .anime{
         display: none;
     }
-    .capt-box figcaption{
-        position: absolute;
+    .capt-box:last-of-type{
+        display: none;
     }
     .capt-box h2{
-        font-size: 1.1em;
+        font-size: 1em;
         text-align: center;
         padding: 0px;
         font-family: 'Roboto',sans-serif;
-        letter-spacing: 2px; 
+        letter-spacing: 1px; 
     }
     .capt-box img{
-       height: 200px;
-       width: 90%;
+       height: 220px;
+       width: 100%;
     }
     .about-us{
-        height: 600px;
+        height: auto;
         background-color: #e4e1e1;
         margin-right: 0;
+    }
+    .butt-ab{
+        text-align: justify;
+        padding: 0px 30px 0 30px ;
     }
     .top-ab{
         margin-top: 20px;
@@ -209,6 +234,9 @@ body{
         font-size: 1.1em;
         letter-spacing: 2px;
     }
+    .contact i{
+        padding: ;
+    }
     .refer-link{
         flex-direction: row;
         justify-content: space-between;
@@ -216,9 +244,6 @@ body{
 
     #tel-pre, #eemail{
         height: 18px;
-    }
-    .contact i{
-        margin-top: 20px;
     }
     .refer-link ul{
         padding-left: 20px;
@@ -237,6 +262,12 @@ body{
     .refer-link ul{
         padding-left: 20%;
     } 
+    .capt-box:last-of-type{
+        display: flex;
+        padding-bottom: 30px;
+        
+    }
+
 }
 @media only screen and (min-width: 1200px){
     .container{
