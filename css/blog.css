@@ -10,7 +10,7 @@ body{
     display: grid;
     width: 100vw;
     grid-template-columns: 100vw;
-    grid-template-rows: 170px 1105px 490px;
+    grid-template-rows: auto auto 1fr;
     margin-left: 0;
     margin-right: 0;
     z-index: 1;
