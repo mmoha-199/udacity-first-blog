@@ -231,24 +231,28 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
-    padding: 0%;
+    padding: 0px;
 }
 .capt-box{
     display: block;
     width: 90vw;
-    height: 250px;
+    height: fit-content;
     margin-left: 10px;
-    margin: 15px;
+    margin: 0px;
     padding: 0px;
-    border-top: 1px solid rgba(0, 0, 0, 0.219);
+    position: relative;
+}
+.anime{
+    width: 100vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075) ;
 }
 .capt-box figcaption{
-    padding-bottom: 5px;
+    position: absolute;
 }
 .capt-box h2{
     font-size: 1.1em;
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 0px;
     font-family: 'Roboto',sans-serif;
     letter-spacing: 2px; 
 }
