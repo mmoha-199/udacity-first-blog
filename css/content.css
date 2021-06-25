@@ -219,14 +219,6 @@
     justify-content: left;
     padding: 0%;
 }
-.serv-galry h1{
-    font-size: 1.4em;
-    align-self: center;
-    padding: 10px 0px 10px 0px;
-    font-family: 'Roboto',sans-serif;
-    letter-spacing: 2px;
-}
-
 .capt-box{
     display: block;
     width: 90vw;
