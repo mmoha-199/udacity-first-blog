@@ -1,11 +1,14 @@
 @import url("./header.css");
 @import url("./content.css");
 @import url("./footer.css");
-
+html{
+    margin: 0;
+}
 body{
     font-size: 18px;
     box-sizing: border-box;
     margin: 0;
+    z-index: 0;
 }
 .clearfix::after {
     content: "";
@@ -75,9 +78,13 @@ body{
     margin-top: 5px;
     text-decoration: none; 
 }
+.contact a{
+    padding-left: 10px;
+}
 .contact i{
     color: rgb(196, 131, 10);
     width: 5%;
+    padding: 0px;
 }
 .fas fa-phone-alt, .fas fa-envelope{
     padding-bottom: 40px;
@@ -244,7 +251,7 @@ body{
 /*1025px — 1200px: Desktops, large screens*/
 @media only screen and (min-width: 1025px){
     .nav-list li a{
-        font-size: 1.5em;
+        padding: 40px;
     }
     .refer-link ul{
         padding-left: 20%;
